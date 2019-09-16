@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-early-access-page",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Gatsby starter for building an early access page using Airtable as backend and Netlify for deployment",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Konstantin Lebedev <https://konstantinlebedev.com>",
   "dependencies": {
     "@emotion/core": "^10.0.16",
     "@emotion/styled": "^10.0.15",
@@ -36,7 +36,11 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "airtable",
+    "netlify",
+    "early access",
+    "landing page"
   ],
   "license": "MIT",
   "scripts": {
@@ -52,9 +56,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/koss-lebedev/gatsby-starter-early-access-page"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/koss-lebedev/gatsby-starter-early-access-page/issues"
   }
 }
