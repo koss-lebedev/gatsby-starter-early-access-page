@@ -1,6 +1,9 @@
 import joi from 'joi'
 import Airtable from 'airtable'
 import { APIGatewayEvent } from 'aws-lambda'
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const schema = joi.object().keys({
   email: joi
