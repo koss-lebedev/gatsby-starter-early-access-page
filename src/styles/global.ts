@@ -14,7 +14,20 @@ export default css`
     font-family: 'Poppins';
     font-display: swap;
     font-size: 1.6rem;
-    background: #f6f9fb;
+    background: linear-gradient(to right, #ebeff8, #fcfcff);
     margin: 0;
+    color: #464856;
+  }
+
+  h1 {
+    color: #424565;
+  }
+
+  a {
+    color: #0095ff;
+  }
+
+  h1 {
+    font-family: 'Poppins';
   }
 `
