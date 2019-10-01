@@ -2,12 +2,7 @@ import { Link } from "gatsby"
 import React, { FC } from "react"
 
 const Header: FC<{ siteTitle: string }> = ({ siteTitle = '' }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header>
     <div
       style={{
         margin: `0 auto`,
@@ -19,11 +14,10 @@ const Header: FC<{ siteTitle: string }> = ({ siteTitle = '' }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {/* {siteTitle} */}
         </Link>
       </h1>
     </div>

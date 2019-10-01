@@ -1,4 +1,4 @@
-import React, { useState, FormEvent, FC } from 'react'
+import React, { useState, FormEvent, FC, useRef, useEffect } from 'react'
 import emailValidator from 'email-validator'
 import { Form, Input, Button, ThankYou } from './styled'
 
@@ -15,6 +15,7 @@ const subscribe = async (email: string) => {
 }
 
 const SubscribeForm: FC = () => {
+  const inputRef = useRef<HTMLInputElement>(null)
   const [email, setEmail] = useState('')
   const [subscribed, setSubscribed] = useState(false)
   const [isProcessing, setProcessing] = useState(false)
@@ -27,6 +28,10 @@ const SubscribeForm: FC = () => {
     setProcessing(false)
   }
 
+  useEffect(() => {
+    inputRef.current!.focus()
+  }, [])
+
   return subscribed ? (
   <ThankYou>Thank You!</ThankYou>
   ) : (
@@ -35,6 +40,7 @@ const SubscribeForm: FC = () => {
         autoFocus
         type="email"
         placeholder="email@domain.com"
+        ref={inputRef}
         value={email}
         onChange={event => setEmail(event.target.value)}
       />

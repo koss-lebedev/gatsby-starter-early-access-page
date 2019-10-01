@@ -5,6 +5,7 @@ export const Form = styled.form`
   display: inline-flex;
   border-radius: 0.5rem;
   padding: 0.5rem;
+  background: white;
 `
 
 export const Input = styled.input`
@@ -16,14 +17,14 @@ export const Input = styled.input`
 
 export const Button = styled.button`
   border: none;
-  background: blue;
+  background: #0095ff;
   color: white;
   font-size: 1.6rem;
   border-radius: 0.5rem;
   padding: 0.5rem 2rem;
 
   &:disabled {
-    opacity: 0.5;
+    opacity: 0.6;
   }
 `
 
