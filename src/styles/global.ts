@@ -1,5 +1,6 @@
 import { css } from '@emotion/core'
 import theme from './theme'
+import mq from './mq'
 
 export default css`
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap');
@@ -29,6 +30,10 @@ export default css`
   }
 
   h1 {
-    font-family: 'Poppins';
+    font-size: 3rem;
+
+    ${mq.medium} {
+      font-size: 3.6rem;
+    }
   }
 `

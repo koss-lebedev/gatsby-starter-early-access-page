@@ -10,9 +10,9 @@ export const Wrapper = styled.footer`
 export const Inner = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 2rem;
 
-  ${mq.small} {
-    padding: 2rem;
+  ${mq.medium} {
+    padding: 3rem 0;
   }
 `
