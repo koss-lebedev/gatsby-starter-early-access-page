@@ -1,4 +1,5 @@
 import { css } from '@emotion/core'
+import theme from './theme'
 
 export default css`
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap');
@@ -16,15 +17,15 @@ export default css`
     font-size: 1.6rem;
     background: linear-gradient(to right, #ebeff8, #fcfcff);
     margin: 0;
-    color: #464856;
+    color: ${theme.color.text};
   }
 
   h1 {
-    color: #424565;
+    color: ${theme.color.textDark};
   }
 
   a {
-    color: #0095ff;
+    color: ${theme.color.link};
   }
 
   h1 {
