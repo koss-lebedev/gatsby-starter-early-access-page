@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
 `
 
 export const Main = styled.main`
-  flex: 1;
+  flex: 2;
 `
 
 export const Banner = styled.div`
