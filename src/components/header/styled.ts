@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
-import styled from '@emotion/styled'
-import theme from 'styles/theme'
-import mq from 'styles/mq'
+import styled from "@emotion/styled"
+import theme from "styles/theme"
+import mq from "styles/mq"
 
 export const Wrapper = styled.header`
   position: absolute;

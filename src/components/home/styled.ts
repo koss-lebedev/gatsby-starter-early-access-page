@@ -1,18 +1,15 @@
-import styled from '@emotion/styled'
-import mq from 'styles/mq'
+import styled from "@emotion/styled"
+import mq from "styles/mq"
 
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
   flex-direction: column-reverse;
-  padding-top: 10rem;
 
   ${mq.medium} {
     flex-direction: row;
     height: 100vh;
-    padding: 0 4rem;
+    margin-top: -6rem;
   }
 `
 
